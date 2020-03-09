@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>Prueba-java</groupId>
+	<artifactId>Prueba-java</artifactId>
+	<version>4.0.2</version>
+	<packaging>jar</packaging>
+
+	<name>Prueba-java</name>
+
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+
+	<dependencies>
+
+<!-- https://mvnrepository.com/artifact/com.jayway.jsonpath/json-path -->
+<dependency>
+    <groupId>com.jayway.jsonpath</groupId>
+    <artifactId>json-path</artifactId>
+    <version>2.4.0</version>
+</dependency>
+
+
+		<!-- https://mvnrepository.com/artifact/javax.json/javax.json-api -->
+		<dependency>
+			<groupId>javax.json</groupId>
+			<artifactId>javax.json-api</artifactId>
+			<version>1.1.4</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20180813</version>
+		</dependency>
+
+		
+	</dependencies>
+</project>
