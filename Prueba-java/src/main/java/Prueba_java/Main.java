@@ -66,14 +66,12 @@ public class Main {
 		carcel.salir("Jhon");
 
 		for (int i = 0; i < miembros.size(); i++) {
-			// System.out.println(miembros.get(i) + "\n");
+			
+			System.out.println(miembros.get(i) + "\n");
 
-			// System.out.println(jefes.get(i) + "\n");
+			System.out.println(jefes.get(i) + "\n");
+			
 		}
-
-		// imprimimos miembros y jefes
-
-		// imprimimos al cargo m�s alto
 
 	}
 
